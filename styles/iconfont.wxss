@@ -1,0 +1,24 @@
+@font-face {font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_2081532_41kegtzm338.eot?t=1600660962718'); /* IE9 */
+  src: url('//at.alicdn.com/t/font_2081532_41kegtzm338.eot?t=1600660962718#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAANUAAsAAAAAB5AAAAMFAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCdII5ATYCJAMMCwgABCAFhG0HPBuFBhHVmz/IfiSmWwzyTc67WTq1U7wJnv/aXu9jBjypmBq/YibLLHsIgM01R6ozJkI9yVn06AspPaSXZvQ/l9O7q8TnB8pp7f38qBdgtoACGnuRFUgaCDeM3UTQENdDAI+M5Eeq16zfHAcN6CaA9O/TqwtORo1uyBUcBKtirEYWYuIYs4y7wAL+eflDUXHAwFSAvo171uhO5e/yPV6FUUh7isCZzggYk0AB+QEN0rHS3BoVhfOj8Dyxbk610AjGVL4o4mxfam30j2eAWIDsAIDccsSA74JFcEm8/EMMABQAFuABA4E5E9QBG5U2XZzrgAZaq3Hxs3eCRxrocJefaM4eEV+6mxnb3Tto2WlA+6ap1mxIu/l59a0n965Ns+5ZiTmpduRq0vLo/edXcq3wt53Lb3Oxladiu71ABvSPWxFLGSwNW3CBhxUp/GShccNbjBrcq0L37t1altySsnnSmcmatyAlTZPNTOree2RkZqFZc6HYyBZf9ueKNSxbYtjKG+dKj69a5qG7sFnZ1X1bJs/pVu6e0Nj6uK0+d/7I1uLp8AZPWzaXDf9/L0y2ECvc5USZfKFs3B9uKzDlfhT5Eo4a8/HT6DHbVly5ehdtMr113lqfPlIZgOiPWq5S/ZXvULX+3o2dEpVPcHwNwJv5NT/zDlGoUSHgnLNF4B9wOuZpnwc0SrtszA5jim7Yd6jC821EAHtS3g+XpuicDYJDigQMbDKAwiE7qkn5wcSnOFg4VAKPfNSa7JOMoShEu0BepkkgJOYAGMRzARSJuYdq0jswSck/sEgsCjxaSrI5fXIKnNSRUQs6MH9IlhaPdKJE7g3De9Kc5nHyC7kmH/RNl49dcUGeYkD9hEHEg2ea4SJthtNEUJgyWmmiSDm0ra96UWNpXimOjFrQgflDsrR4WlxU4f03DO9JcwOux/hCrql26JuuA3oVL51wt3JJ/YRBxINnmuEiGXGCYYJS3SqjlSYOCJZDqxTyXcXN8tL5/VYBHuAYJYYo0eyra9FHmouudYcuyWoFAAAA') format('woff2'),
+  url('//at.alicdn.com/t/font_2081532_41kegtzm338.woff?t=1600660962718') format('woff'),
+  url('//at.alicdn.com/t/font_2081532_41kegtzm338.ttf?t=1600660962718') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('//at.alicdn.com/t/font_2081532_41kegtzm338.svg?t=1600660962718#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-DataCompass:before {
+  content: "\e601";
+}
+
+.icon-edit:before {
+  content: "\e60e";
+}

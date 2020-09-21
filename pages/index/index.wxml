@@ -1,0 +1,17 @@
+<view class="pyg_index">
+    <!-- 搜索框 开始 -->
+  <SearchInput></SearchInput>
+  <!-- 搜索框 结束 -->
+</view>
+<swiper autoplay interval="5000" circular indicator-dots indicator-color="#0094ff" indicator-active-color="#ff0094">
+    <swiper-item> <image mode="widthFix" src="https://s1.ax1x.com/2020/09/21/wqtktK.jpg" /> </swiper-item>
+    <swiper-item> <image mode="widthFix" src="//aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" /> </swiper-item>
+    <swiper-item> <image mode="widthFix" src="//gw.alicdn.com/imgextra/i2/37/O1CN01syHZxs1C8zCFJj97b_!!37-0-lubanu.jpg" /> </swiper-item>
+</swiper>
+<view class='nav-list margin-top-xl'>
+    <navigator open-type="navigate"  url="/pages/{{item.name}}/{{item.name}}" class="nav-li bg-{{item.color}}" wx:for="{{elements}}" wx:key>
+      <view class="nav-title margin">{{item.title}}</view>
+      <view class="nav-name margin">{{item.name}}</view>
+      <text class='cuIcon-{{item.icon}} margin'></text>
+    </navigator>
+  </view>

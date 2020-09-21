@@ -1,0 +1,18 @@
+view{
+  /* color: var(--themeColor); */
+}
+swiper {
+  width: 100%;
+  /* height: calc(1507vw * 352 /  1125); */
+  height: 31.28vw;
+}
+image {
+  width: 100%;
+}
+.box{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+}
