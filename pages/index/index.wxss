@@ -1,6 +1,4 @@
-view{
-  /* color: var(--themeColor); */
-}
+
 swiper {
   width: 100%;
   /* height: calc(1507vw * 352 /  1125); */

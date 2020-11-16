@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="content_view">
+<!--   圆形形 -->
+  <progressView id="progressView2" canvasWidth="150" text="{{g}}" lenth="{{length-1}}" radian="1" direction="left"/>
+</view>
+<view style='padding-bottom:44px;' >
+    <view class="question-list">
+      <view class="question-list-title">
+        <i-tag class="i-tags" name="单选" type="border" color="blue" >
+          单选
+        </i-tag>
+        <i-tag class="i-tags" name="多选" type="border" color="blue" wx:if="{{questionInfo.type==2}}">
+          多选
+        </i-tag>
+        <text class='question-title'>{{title}}</text>
+      </view>
+    </view>
+</view>
+    <!--答案选择 - 单选-->
+   <view class="box">
+    <radio-group>
+     <view
+     bindtap="radioChange"
+     class="itemsbox {{u!=ck?'no':'checked'}}"
+     wx:for="{{sd}}" 
+     wx:key="id"
+     wx:for-index = "u"
+     data-id="{{item.isRight}}"
+     data-ck="{{u}}"
+    > 
+        <!-- <label  class="radio">
+         <radio checked='{{item.state}}' value="{{item.value}}" />
+        </label> -->
+        {{item.content}}
+        
+      </view>
+   </radio-group>
+  </view>
+
+    
+ 
+
+    <!-- 答案选择 - 多选
+    <i-panel wx:if="{{questionInfo.type==2}}">
+      <i-checkbox-group current="{{currentD}}" wx:for="{{questionInfo.choseList}}" wx:key="{{item.id}}" data-id="{{item.isChose}}" bindchange="handleChangeD">
+        <i-checkbox disabled="{{disabled1}}" wx:key="{{index}}" position="left" wx:key="{{item.id}}" value="{{s[index]}}{{item.item}}">
+        </i-checkbox>
+      </i-checkbox-group>
+    </i-panel> -->
+<button class="sim-btn sim-btn-info" bindtap="bindToAnswer">下一题</button>

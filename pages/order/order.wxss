@@ -1,0 +1,33 @@
+page{
+  background: #66CDAA;
+  font-weight: bold;
+  color: #fff;
+}
+
+.select-wrap {
+  width: 300rpx;
+}
+
+.selected {
+  margin-top: 50%;
+}
+.sim-btn {
+  margin: 40rpx;
+  height: 100rpx;
+  
+}
+.sim-btn-info {
+
+  background-color: #33aefd;
+  color: #fff;
+}
+
+.question-list{
+  font-size: 50rpx;
+  text-align: center;
+}
+
+.score{
+
+  font-size: 200rpx;
+}

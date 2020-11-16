@@ -18,5 +18,8 @@ App({
 
   },
  
+globalData:{
+  score:null
+}  
 });
   

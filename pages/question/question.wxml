@@ -1,2 +1,16 @@
 <!--pages/question/question.wxml-->
-<text>pages/question/question.wxml</text>
+
+<!-- <van-button plain type="primary" custom-style="width:300rpx;display: flex;justify-content: center;" bind:click="selectGrade" >选择年级</van-button> -->
+<!-- <picker class="choseGrade" bindchange="bindPickerChange" value="{{index}}" range="{{array}}">{{array[index]}}</picker> -->
+<view>
+{{title}}
+</view>
+<view wx:for="{{sd}}" wx:key="id">
+
+<checkbox>{{item.content}}</checkbox>
+
+</view>
+<button bindtap='bindToAnswer' round type="info" custom-style="margin-top:90rpx;width:200rpx;display: flex;justify-content: center;">下一题</button>
+
+
+

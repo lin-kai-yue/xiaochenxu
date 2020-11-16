@@ -11,7 +11,7 @@ Page({
     userClass: 'null',
     elements: [{
         title: '测试',
-        name: 'answer',
+        name: 'choose',
         icon: 'question',
         color: 'blue'
       },

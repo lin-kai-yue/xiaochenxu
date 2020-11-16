@@ -1,0 +1,16 @@
+
+<view style='padding-bottom:44px;' >
+    <view class="question-list">
+      <view class="question-list-title">
+        <text class='question-title'>最终得分为....</text>
+<text class="score">
+  {{score}}分
+
+</text>
+      
+   
+    </view>
+    </view>
+</view>
+
+<button class="sim-btn sim-btn-info" bindtap="back">回到首页</button>

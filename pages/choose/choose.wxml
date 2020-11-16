@@ -1,0 +1,19 @@
+
+<view style='padding-bottom:44px;' >
+    <view class="question-list">
+      <view class="question-list-title">
+        <text class='question-title'>请选择想做的题目....</text>
+        <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+    <view class="picker">
+      
+      <button class="sim-btn sim-btn-info" bindtap="bindToAnswer">选择想要考试的题目</button>
+      当前选择：{{multiArray[0][multiIndex[0]]}}，{{multiArray[1][multiIndex[1]]}}，{{multiArray[2][multiIndex[2]]}}
+   
+    </view>
+  </picker>
+      </view>
+    </view>
+</view>
+<navigator url='../answer/answer?groupName={{multiArray[0][multiIndex[0]]}}&gradeName={{multiArray[1][multiIndex[1]]}}&subject={{multiArray[2][multiIndex[2]]}}'>
+<button class="sim-btn sim-btn-info"  >开始答题</button>
+</navigator>

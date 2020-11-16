@@ -1,0 +1,5 @@
+<!--pages/test/test.wxml-->
+<view wx:for="{{test}}" wx:key="id">
+<checkbox>{{item.gradeName}}</checkbox>
+
+</view>

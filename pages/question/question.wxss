@@ -1,1 +1,13 @@
 /* pages/question/question.wxss */
+.choseGrade{
+  font-size: 30rpx;
+  background-color: #07C160;
+  width: 400rpx;
+  height: 90rpx;
+  margin: 0 auto;
+  text-align: center;
+  justify-content:center;
+  display:flex;
+  align-items:center;
+  color: #ffffff;
+}
